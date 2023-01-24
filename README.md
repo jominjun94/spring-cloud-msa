@@ -1,6 +1,6 @@
-##### 스프링클라우드 + 마이크로서비스아키텍쳐
+# 스프링클라우드 + 마이크로서비스아키텍쳐
 
-# spring boot + JPA + H2 + spring-cloud-starter-netflix-eureka-client
+## spring boot + JPA + H2 + spring-cloud-starter-netflix-eureka-client
   1. user-service + spring-cloud-starter-config + jwt
    <br/>1-0. spring-boot-starter-security
     <br/>1-1. spring-boot-starter-actuator
@@ -19,11 +19,11 @@
   3. catalog-service 
   
   
- # discovery-server   
+ ## discovery-server   
   1. spring-cloud-starter-netflix-eureka-server
   
   
- # apigateway-service + jwt + filter
+ ## apigateway-service + jwt + filter
   1. spring-cloud-starter-gateway
   2. spring-cloud-starter-netflix-eureka-clien
   3. spring-cloud-starter-config
@@ -32,7 +32,7 @@
   6. micrometer-registry-prometheus
 
 
- # config-cloud-service
+ ## config-cloud-service
   1. spring-cloud-config-server
   2. spring-boot-starter-actuator
   3. spring-boot-starter-actuator
